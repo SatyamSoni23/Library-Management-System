@@ -1,0 +1,49 @@
+body{
+   height: 100%;
+   width: 100%;
+}
+.topImage{
+    height: 320px;
+    width: 1300px;
+    margin-top: 30px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+#bottomLayout{
+    height: 380px;
+    width: 1300px;
+    border-radius: 10px;
+    opacity: 0.9;
+    background-color: #ffffff;
+	border-style: dashed;
+    border-radius: 10px;
+    border-color: #b61827;
+	
+}
+#bottom-left{
+    float: left;
+    margin-left: 280px;
+    
+    text-decoration: none;
+}
+#bottom-right{
+    float: right;
+    margin-right: 280px;
+   
+    text-decoration: none;
+}
+#linkAdmin{
+    text-decoration: none;
+    font-size:1.4em;
+    color: #002171;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#linkStudent{
+    text-decoration: none;
+    font-size:1.4em;
+    color: #002171;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

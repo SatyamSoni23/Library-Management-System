@@ -1,0 +1,58 @@
+body{
+    height: 100%;
+    width: 100%;
+ }
+ .topImage{
+     height: 320px;
+     width: 1300px;
+     margin-top: 30px;
+     border-radius: 10px;
+     opacity: 0.9;
+ }
+ #bottomLayout{
+     height: 320px;
+     width: 1300px;
+     border-radius: 10px;
+     opacity: 0.9;
+     background-color: #ffffff;
+     margin-bottom: 20px;
+	 border-style: dashed;
+     border-radius: 10px;
+     border-color: #b61827;
+ }
+ #bottom-left{
+     float: left;
+     margin-left: 280px;
+     margin-top:35px;
+     text-decoration: none;
+ }
+ #bottom-right{
+     float: right;
+     margin-right: 280px;
+     margin-top:20px;
+ }
+ #linkAdmin{
+     text-decoration: none;
+     color: #485460;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ #wrongUserPass{
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #c0392b;
+    font-weight: bold;
+
+ }
+ #wrongImage{
+     height: 150px;
+     width: 150px;
+     padding-top: 35px;
+ }
+ 
+#bottomContentLeft{
+	font-size:1.3em;
+    color: #002171;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}	
+ 
