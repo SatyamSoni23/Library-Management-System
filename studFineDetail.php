@@ -13,10 +13,10 @@
                 <img src="Images/home1.jpg" class = "topImage">  
             </div>
             <div class="topnav">
-					<a class="active" href="studBookSearch.php">Books Search</a>
+					<a id="inActive" href="studBookSearch.php">Books Search</a>
                     <a id="inActive" href="studBookList.php">Book List</a>
                     <a id="inActive" href="studIssued.php">Issued</a>
-                    <a id="inActive" href="studFineDetail.php">Fine Details</a>
+                    <a class="active" href="studFineDetail.php">Fine Details</a>
                     <a href="Logout.php" id = "logout">Logout</a>
                   </div>
             <div id = "bottomLayout">

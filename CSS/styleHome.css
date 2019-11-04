@@ -6,9 +6,25 @@ body{
     height: 320px;
     width: 1300px;
     margin-top: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     opacity: 0.9;
+	box-shadow: 5px 20px 20px 20px #3e2723;
+	-webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
 }
+.topImage:hover{
+	height: 325px;
+    width: 1305px;
+	box-shadow: 5px 20px 20px 20px #5d4037;
+	-webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}	
 #bottomLayout{
     height: 380px;
     width: 1300px;
@@ -46,4 +62,37 @@ body{
     font-weight:bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#imageL{
+	-webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+#imageL:hover{
+	height : 205px;
+	width: 205px;
+	transition:0.3s;
+	-webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+#imageR{
+	-webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}	
+#imageR:hover{
+	height: 205px;
+	width: 205px;
+	transition:0.3s;
+	-webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}	

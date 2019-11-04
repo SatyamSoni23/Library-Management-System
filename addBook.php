@@ -23,11 +23,11 @@
 					$sql = "INSERT INTO bookrecord VALUES('$bookId', '$title', '$authorName', '$cost', '$quantity')";
 					if($conn->query($sql))
 					{
-						echo "New record is inserted successfully";
+						echo "<center><p style='color:#ffffff;'>New record is inserted successfully.</p><center>";
 					}
 					else
 					{
-						echo "Error: ". $sql ."<br>". $conn->error;
+						echo "<center><p style='color:#ffffff;'>This book is previously added.</p><center>";
 					}	
 					$conn->close();
 				}	

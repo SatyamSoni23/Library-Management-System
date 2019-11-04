@@ -34,7 +34,7 @@
 								$sql1 = "INSERT INTO borrower (studUsername, bookId, issueDate, returnDate) values('$studUsername', '$bookId', '$issueDate', '$returnDate');";
 								if($conn->query($sql1) && $conn->query($sql3)){
 									
-									echo "<center><h3>Data Successfully Inserted</h3></center>";
+									echo "<center><p style='color:#ffffff;'>Data Successfully Inserted</p></center>";
 								}
 								else
 								{
@@ -42,7 +42,7 @@
 								}
 							}	
 							else{
-								echo "<center><h3>Book not available</h3></center>";
+								echo "<center><p style='color:#ffffff;'>Book not available</p></center>";
 							}
 						}
 						else

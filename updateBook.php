@@ -70,7 +70,7 @@
                         <tr id = "rowLayout"><td id="rowHeading"> Book Id:</td><td><input type="text" name="bookId" id = "input"></td></tr>
                     </table>
                     <br><center><input type="submit" value="Search" id = "update"></center><br>
-                  </form>
+                 </form>
 				  
             </div>
         </center>    

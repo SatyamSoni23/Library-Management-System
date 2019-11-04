@@ -40,7 +40,7 @@
 							if($conn->query($sql))
 							{
 								$entry = "success";
-								echo "<center><h3>New record is inserted successfully</h3></center>";
+								echo "<center><p style='color:#ffffff;'>Registered successfully</p></center>";
 							}
 							else
 							{
@@ -86,7 +86,7 @@
 					$sql3 = "CREATE TABLE studentDetail (username varchar(30) PRIMARY KEY, password varchar(40))";
 					$sql4 = "CREATE TABLE borrower (studUsername varchar(30), bookId varchar(10), issueDate DATE, returnDate DATE)";
 					if($conn1->query($sql1) && $conn1->query($sql2) && $conn1->query($sql3) && $conn1->query($sql4)){
-						echo "Data Successfully Inserted";
+						echo "<center><p style='color:#ffffff;'>Table Successfully Created</p></center>";
 					}
 					else
 					{
@@ -118,7 +118,7 @@
             </div>
             <br>
             <div id = "bottomLayout">
-                <div  id ="bottom-left"><a href = "adminRegister.php" id = "linkAdmin"><img src = "Images/admin.png" height = "200" width = "200"></a><br><p id ="bottomContentLeft"> Admin Registration</p></div>
+                <div  id ="bottom-left"><a href = "adminRegister.php" id = "linkAdmin"><img src = "Images/admin.png" height = "200" width = "200" id = "imageL"></a><br><p id ="bottomContentLeft"> Admin Registration</p></div>
                 <div id ="bottom-right">
                     <form action="adminRegister.php" method = "post">
                         <table id = "formLayout" cellspacing="10">

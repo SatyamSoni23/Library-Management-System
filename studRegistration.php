@@ -35,7 +35,7 @@
 							$row = $result->fetch_assoc();
 							$adminname = $row["username"];
 							$entry = "success";
-							echo "New record is inserted successfully abc". $adminname;
+							echo "<center><p style='color:#ffffff;'>Registration successfully</p></center>";
 						}
 						else
 						{
@@ -100,7 +100,7 @@
             </div>
             <br>
             <div id = "bottomLayout">
-                <div  id ="bottom-left"><a href = "adminRegister.php" id = "linkAdmin"><img src = "Images/studRegistration.png" height = "200" width = "200"></a><br><p id ="bottomContentLeft"> Student Registration</p></div>
+                <div  id ="bottom-left"><a href = "adminRegister.php" id = "linkAdmin"><img src = "Images/studRegistration.png" height = "200" width = "200" id = "imageL"></a><br><p id ="bottomContentLeft"> Student Registration</p></div>
                 <div id ="bottom-right">
                     <form action="studRegistration.php" method = "post">
                         <table id = "formLayout" cellspacing="10">

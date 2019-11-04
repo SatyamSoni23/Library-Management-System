@@ -3,12 +3,28 @@ body{
     width: 100%;
  }
  .topImage{
-     height: 320px;
-     width: 1300px;
-     margin-top: 15px;
-     border-radius: 10px;
-     opacity: 0.9;
- }
+    height: 320px;
+    width: 1300px;
+    margin-top: 30px;
+    border-radius: 20px;
+    opacity: 0.9;
+	box-shadow: 0px 0px 0px 0px #3e2723;
+	-webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.topImage:hover{
+	height: 325px;
+    width: 1305px;
+	box-shadow: 5px 5px 5px 5px #5d4037;
+	-webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}	
  /* Add a black background color to the top navigation */
 .topnav {
     width: 1300px;

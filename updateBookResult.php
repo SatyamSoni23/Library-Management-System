@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,7 +9,7 @@
     </head>
     <body background="Images/home.jpg">
         <center>
-             <div>
+            <div>
                 <img src="Images/home1.jpg" class = "topImage">  
             </div>
             <div class="topnav">
@@ -25,8 +26,10 @@
                 <br><center><h2 id = "formHeading">Update Book</h2></center>
 				<?php
 					session_start();
-					$bookId = $_SESSION['bookId'];
-					echo "<h3>"."Book Id : ".$bookId."</h3>";
+					if(!empty($username)){
+						$bookId = $_SESSION['bookId'];
+						echo "<h3>"."Book Id : ".$bookId."</h3>";
+					}				
 				?>
 				<form action="updateBookResult.php" method = "POST">
                     <table id = "formLayout" cellspacing="10">
@@ -36,7 +39,7 @@
                         <tr id = "rowLayout"><td id="rowHeading"> Quantity:</td><td><input type="text" name="quantity" id = "input"></td></tr>
                     </table>
                     <br><center><input type="submit" value="Add"></center><br>
-                  </form>
+                 </form>
 				<?php
 					$title = filter_input(INPUT_POST, 'title');
 					$authorName = filter_input(INPUT_POST, 'authorName');
@@ -59,6 +62,7 @@
 								else
 								{	
 									$sql = "UPDATE bookrecord SET title = '$title', authorName = '$authorName', cost = '$cost', quantity = '$quantity' WHERE bookId = '$bookId'";
+									
 									if($conn->query($sql))
 									{
 										echo "Update Successfull. <br>";
