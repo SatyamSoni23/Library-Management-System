@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -78,6 +77,7 @@
 								echo "Empty record";
 							}	
 						}
+					}	
 					else{
 						session_destroy();
 						$_SESSION = array();
